@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(..//Imgs/background-pag-inicial.avif);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    justify-content: c;
+    align-items: center;
+    margin-top: 20px;
+    border-bottom: 1.4px solid black;
+}
+
+main{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 80vh;
+    
+}
+
+.container-titulo{
+    transform: translate(50%);
+    font-family: 'Cinzel', serif;
+    
+}
+
+.criar-conta{
+    color: white;
+}
+
+.apresentacao{
+    font-size: 22px;
+    transform: translate(0px, -40px);
+    font-family: 'Cinzel', serif;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+}
+
+#img-logo-loja{
+    width: 80px;
+    display: flex;
+    padding: 5px;
+}
+
+#logos-redes-socias{
+    width: 24px;
+}
+
+.produto-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#prod-1{
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px;
+    transition: transform 0.4s ease;
+    
+}
+
+#prod-1:hover {
+    transform: scale(1.1);
+    
+  }
+
+#seta1{
+    background-image: url(../Imgs/seta-esquerda.png);
+    background-size: cover;
+    background-position: center;
+    width: 45px;
+    height: 45px;
+    border: none;
+    transform: rotate(180deg);
+    background-color: transparent;
+    
+    
+
+}
+
+#seta2{
+    background-image: url(../Imgs/seta-esquerda.png);
+    background-size: cover;
+    background-position: center;
+    width: 45px;
+    height: 45px;
+    border: none;
+    background-color:transparent;
+}
+
+#seta1:hover{
+    background-blend-mode: multiply;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+}
+
+#seta2:hover{
+    background-blend-mode: multiply;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+}
+
+footer{
+    display: flex;
+    gap: 20px;
+    font-size: 22px;
+    padding: 30px;
+    align-items: center;
+    border-top: 0.4px solid black;
+}
+
+.ajudas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px;
+    font-size: 12pt;
+}
+.sobre-a-loja{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15pt;
+}
+
+
+
+

@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+
+
+html , body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(..//Imgs/background-pag-inicial.avif);
+}
+
+
+
+main{
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+
+
+a{
+    color: rgb(27, 194, 245);
+}
+
+
+.card-login{
+    display: flex;
+    flex-direction: column;
+    background-color: #464A4A;
+    width: 300px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-around;
+    
+}
+
+#icon-email{
+    width: 21px;
+}
+#icon-password{
+    width: 21px;
+}
+
+.cont-email{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cont-password{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input{
+    padding: 9px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: groove;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px rgba(66,66,66,.32);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+
+input:focus{
+    outline:none;
+}
+#btn-login{
+    box-shadow:inset 0px 0px 0px 0px #949194;
+	background:linear-gradient(to bottom, #ffffff 5%, #cccccc 100%);
+	background-color:#ffffff;
+	border-radius:5px;
+	border:2px solid #4d454d;
+	display:inline-block;
+	cursor:pointer;
+	color:#332f33;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 36px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+#btn-login:hover{
+    background:linear-gradient(to bottom, #cccccc 5%, #ffffff 100%);
+	background-color:#cccccc;
+}
+#btn-login:active{
+    position:relative;
+	top:1px;
+}
+
+.criar-conta{
+    color: white;
+}
